@@ -1,0 +1,76 @@
+.index-page {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 100px;
+    background: #33A1E0;
+    text-align: center;
+    color: #FFF9AF;
+    border: 2px solid black;
+  }
+  
+  h1, h2 {
+    color: #2c3e50;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: #FFF9AF;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    background: #3498db;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #2980b9;
+  }
+  
+  #chat-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    height: 200px;
+    overflow-y: auto;
+    background: white;
+  }
+
+  .chatbot{
+    background-color: #33A1E0;
+  }
+  
+
+  .bg-image {
+    background: url("../static/sunrise.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+  /* Background */
+body {
+  background: url("../static/sun.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Login/Register Card */
+.auth-card {
+  background: rgba(255, 255, 255, 0.15); 
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 400px;
+  width: 100%;
+  color: #fff;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+
+  
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
